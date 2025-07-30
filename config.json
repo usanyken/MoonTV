@@ -95,31 +95,35 @@
     },
     "box": {
       "api": "https://clun.top/box.json",
-      "name": "box"
+      "name": "自用"
     },
     "jsm": {
       "api": "https://clun.top/jsm.json",
-      "name": "jsm"
+      "name": "PG"
     },
-    "fun": {
-      "api": "https://clun.top/fun.json",
-      "name": "fun"
+    "wex": {
+      "api": "https://clun.top/wex.json",
+      "name": "王二小"
     },
     "fty": {
       "api": "https://clun.top/fty.json",
-      "name": "fty"
+      "name": "饭总"
     },
     "aa": {
       "api": "https://clun.top/aa.json",
-      "name": "aa"
+      "name": "张佬"
     },
     "svip": {
       "api": "https://clun.top/svip.json",
-      "name": "svip"
+      "name": "拾光"
     },
     "moyu": {
       "api": "https://clun.top/moyu.json",
-      "name": "moyu"
+      "name": "摸鱼"
+        },
+    "ok": {
+      "api": "https://clun.top/ok.json ",
+      "name": "OK杰克"
     }   
   }
 }

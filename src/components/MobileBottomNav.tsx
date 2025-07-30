@@ -1,16 +1,16 @@
 'use client';
 
 import {
-  Clover,
-  Film,
-  Home,
-  MessageCircleHeart,
-  MountainSnow,
-  Search,
-  Star,
-  Swords,
-  Tv,
-  VenetianMask,
+ Home,
+ Search,
+ Film,
+ Tv,
+ Star,
+  //Clover,
+   //MessageCircleHeart,
+  //MountainSnow,
+    //Swords,
+    //VenetianMask,
 } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';

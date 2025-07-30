@@ -1,18 +1,18 @@
 'use client';
 
 import {
-  Clover,
-  Film,
-  Home,
   Menu,
-  MessageCircleHeart,
-  MountainSnow,
+  Home,
   Search,
-  Star,
-  Swords,
+  Film,
   Tv,
-  VenetianMask,
-} from 'lucide-react';
+  Star,
+  Clover,
+  //Swords,
+  //MessageCircleHeart,
+  //MountainSnow,
+  //VenetianMask,
+  } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import {
@@ -152,17 +152,17 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
     },
     {
       icon: Clover,
-      label: '综艺',
-      href: '/douban?type=tv&tag=综艺&title=综艺',
+      label: '国产剧',
+      href: '/douban?type=tv&tag=国产剧',
     },
-    { icon: Swords, label: '美剧', href: '/douban?type=tv&tag=美剧' },
-    {
-      icon: MessageCircleHeart,
-      label: '韩剧',
-      href: '/douban?type=tv&tag=韩剧',
-    },
-    { icon: MountainSnow, label: '日剧', href: '/douban?type=tv&tag=日剧' },
-    { icon: VenetianMask, label: '日漫', href: '/douban?type=tv&tag=日本动画' },
+   // { icon: Swords, label: '美剧', href: '/douban?type=tv&tag=美剧' },
+   // {
+     // icon: MessageCircleHeart,
+     // label: '韩剧',
+    //  href: '/douban?type=tv&tag=韩剧',
+   // },
+   // { icon: MountainSnow, label: '日剧', href: '/douban?type=tv&tag=日剧' },
+   // { icon: VenetianMask, label: '日漫', href: '/douban?type=tv&tag=日本动画' },
   ];
 
   return (

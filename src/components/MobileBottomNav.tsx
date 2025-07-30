@@ -46,19 +46,19 @@ const MobileBottomNav = ({ activePath }: MobileBottomNavProps) => {
       label: '高分',
       href: '/douban?type=movie&tag=top250&title=豆瓣 Top250',
     },
-    {
-      icon: Clover,
-      label: '综艺',
-      href: '/douban?type=tv&tag=综艺&title=综艺',
-    },
-    { icon: Swords, label: '美剧', href: '/douban?type=tv&tag=美剧' },
-    {
-      icon: MessageCircleHeart,
-      label: '韩剧',
-      href: '/douban?type=tv&tag=韩剧',
-    },
-    { icon: MountainSnow, label: '日剧', href: '/douban?type=tv&tag=日剧' },
-    { icon: VenetianMask, label: '日漫', href: '/douban?type=tv&tag=日本动画' },
+//    {
+//      icon: Clover,
+//     label: '综艺',
+//      href: '/douban?type=tv&tag=综艺&title=综艺',
+//    },
+//    { icon: Swords, label: '美剧', href: '/douban?type=tv&tag=美剧' },
+//    {
+//      icon: MessageCircleHeart,
+//      label: '韩剧',
+//      href: '/douban?type=tv&tag=韩剧',
+//    },
+//    { icon: MountainSnow, label: '日剧', href: '/douban?type=tv&tag=日剧' },
+//    { icon: VenetianMask, label: '日漫', href: '/douban?type=tv&tag=日本动画' },
   ];
 
   const isActive = (href: string) => {

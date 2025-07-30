@@ -88,6 +88,39 @@
     "qiqidys": {
       "api": "https://www.qiqidys.com/api.php/provide/vod",
       "name": "七七资源"
-    }
+    },
+    "yimu": {
+      "api": "https://github.com/xianyuyimu/TVBOX-/blob/main/TVBox/一木多线路.json",
+      "name": "一木多线路"
+    },
+    "box": {
+      "api": "https://clun.top/box.json",
+      "name": "box"
+    },
+    "jsm": {
+      "api": "https://clun.top/jsm.json",
+      "name": "jsm"
+    },
+    "fun": {
+      "api": "https://clun.top/fun.json",
+      "name": "fun"
+    },
+    "fty": {
+      "api": "https://clun.top/fty.json",
+      "name": "fty"
+    },
+
+    "aa": {
+      "api": "https://clun.top/aa.json",
+      "name": "aa"
+    },
+    "svip": {
+      "api": "https://clun.top/svip.json",
+      "name": "svip"
+    },
+    "moyu": {
+      "api": "https://clun.top/moyu.json",
+      "name": "moyu"
+    }   
   }
 }
